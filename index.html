@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ATM</title>
+</head>
+<body>
+    <!-- ## Challange -->
+<!-- Create a frontend containing a form. 
+    The form should get the transfer type (withdraw/deposit) and 
+    the amount from the user. After a transfer occurs, the user 
+    should see their new balance -->
+<!-- Balance, Withdraw, Deposit -->
+
+<h1>ATM</h1>
+
+
+<div class="bank">
+<form action="/action_page.php" class="pin">
+    <label for="pin">Enter 4 Digit PIN</label><br><br>
+    <input type="number"  placeholder="####"><br><br>
+    <input type="submit">
+  </form>
+<br><br>
+  <form action="/action_page.php">
+    
+    <input type="balance" class="balance" placeholder="Current Balance"><br><br>
+    
+  </form>  
+
+  <form action="/action_page.php" class="withdraw">
+    <label class="withdraw">Withdraw</label><br><br>
+    <input type="number" class="withdraw" placeholder=""><br><br>
+    <input  type="submit">
+  </form>
+<br><br>
+
+<form action="/action_page.php" class="deposit">
+    <label class="deposit">Deposit</label><br><br>
+    <input type="number" class="deposit" placeholder=""><br><br>
+    <input type="submit">
+  </form>
+<br><br>
+</div>
+
+
+
+</body>
+</html>

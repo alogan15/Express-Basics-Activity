@@ -1,0 +1,46 @@
+* {
+    font-weight: bold;
+    
+  }
+
+h1 {
+    text-align: center;
+    font-size: 100px;
+    color: blue;
+}
+
+.bank {
+    background-color;
+    border: black solid 2px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    width: 450px;
+    padding: 15px;
+    margin-top: 1px;
+    margin-left:auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+
+.pin {
+    /* background-color: red; */
+   
+}
+
+.withdraw {
+    /* background-color: coral; */
+}
+
+.deposit {
+    /* background-color: blue; */
+    /* align-items: center; */
+    /* justify-content: center; */
+  }
+
+.balance {
+    /* background-color: green; */
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    height: 250%;
+  }
